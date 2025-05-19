@@ -34,5 +34,6 @@ body {
 }
 
 .background #coin {
+    display: none;
     z-index: 2;
 }
