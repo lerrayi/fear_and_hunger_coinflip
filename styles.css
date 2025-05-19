@@ -1,6 +1,14 @@
+body {
+    background-color: black;
+}
+
 .banner {
+    margin-top: 1vh;
     background-color: black;
     height: 20vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;;
 }
 
 * {
@@ -13,6 +21,18 @@
     height: 90%; /* Make image maintain aspect ratio */
     width: auto;
     /* Center the image */
-    display: block;
-    margin: 0 auto;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+}
+
+.background #bg_img {
+    height: 78vh;
+    z-index: 1;
+}
+
+.background #coin {
+    z-index: 2;
 }
