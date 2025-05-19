@@ -1,15 +1,17 @@
 .banner {
     background-color: black;
-    height: 10vh;
+    height: 20vh;
 }
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .banner img {
-    width: 100%; /* Make image responsive */
-    height: auto; /* Make image maintain aspect ratio */
+    height: 90%; /* Make image maintain aspect ratio */
+    width: auto;
     /* Center the image */
     display: block;
     margin: 0 auto;
